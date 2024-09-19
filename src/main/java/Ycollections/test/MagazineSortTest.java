@@ -4,8 +4,15 @@ import Ycollections.dominio.Magazine;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
+class MaganizeComparator implements Comparator<Magazine>{
+    @Override
+    public int compare(Magazine magazine1, Magazine magazine2) {
+        return magazine1.getId().compareTo(magazine2.getId());
+    }
+}
 public class MagazineSortTest {
     public static void main(String[] args) {
         List<Magazine> magazine = new ArrayList<>(6);
@@ -20,6 +27,12 @@ public class MagazineSortTest {
         System.out.println("-----------------");
 
         Collections.sort(magazine);
+
+        magazine.forEach(System.out::println);
+
+        System.out.println("-----------------");
+
+        Collections.sort(magazine, new MaganizeComparator());
 
         magazine.forEach(System.out::println);
 

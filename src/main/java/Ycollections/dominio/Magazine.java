@@ -40,18 +40,33 @@ public class Magazine implements Comparable<Magazine> {
     public void setPrice(Double price) {
         this.price = price;
     }
-
     @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Magazine magazine = (Magazine) o;
-        return Objects.equals(id, magazine.id) && Objects.equals(name, magazine.name) && Objects.equals(price, magazine.price);
+    public boolean equals(Object obj) {
+
+        if(this == obj) return true;
+        if(obj == null) return false;
+        if(this.getClass() != obj.getClass()) return false;
+        Magazine magazineObj = (Magazine) obj;
+        return Objects.equals(id, magazineObj.id) &&
+                Objects.equals(name, magazineObj.name) &&
+                Objects.equals(price, magazineObj.price);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, name, price);
+        return Objects.hash(id, name, price) ;
+    }
+
+    @Override
+    public int compareTo(Magazine o) {
+        // sortByPrice
+        //return this.price.compareTo(o.getPrice());
+
+        // sortByName
+        return this.name.compareTo(o.getName());
+
+        // sortById
+        //return this.id.compareTo(o.getId());
     }
 
     @Override
@@ -61,29 +76,5 @@ public class Magazine implements Comparable<Magazine> {
                 ", name='" + name + '\'' +
                 ", price=" + price +
                 '}';
-    }
-
-    @Override
-    public int compareTo(Magazine o) {
-        // negativo se o this < o
-        // se this == o, return 0
-        // positivo se this > o
-//        if(this.id < o.getId()){
-//            return -1;
-//        } else if(this.id.equals(o.getId())) {
-//            return 0;
-//        } else {
-//            return 1;
-//        }
-
-        // sortById
-        //return this.id.compareTo(o.getId());
-
-        // sortByName
-        return this.name.compareTo(o.getName());
-
-        // sortByPrice
-        //return Double.valueOf(this.price).compareTo(o.getPrice());
-
     }
 }
