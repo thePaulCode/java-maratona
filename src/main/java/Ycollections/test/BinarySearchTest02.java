@@ -3,20 +3,16 @@ package Ycollections.test;
 import Ycollections.dominio.Magazine;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
-import java.util.Comparator;
 import java.util.List;
 
-class MaganizeComparator implements Comparator<Magazine>{
+public class BinarySearchTest02 {
 
-    @Override
-    public int compare(Magazine magazine1, Magazine magazine2) {
-        return magazine1.getPrice().compareTo(magazine2.getPrice());
-    }
-}
-public class MagazineSortTest {
     public static void main(String[] args) {
         List<Magazine> magazine = new ArrayList<>(6);
+        MaganizeComparator maganizeComparator = new MaganizeComparator();
+
         magazine.add(new Magazine(5L, "Space Today", 14.99));
         magazine.add(new Magazine(6L, "Machine Learning", 10.99));
         magazine.add(new Magazine(2L, "AI Era", 55.99));
@@ -24,19 +20,15 @@ public class MagazineSortTest {
         magazine.add(new Magazine(3L, "Motors", 5.99));
         magazine.add(new Magazine(1L, "Electronics", 24.99));
 
-        System.out.println(magazine);
-        System.out.println("-----------------");
+        // -(inserction point) -1
+        // index 0, 1, 2, 3
+        // values 0, 2, 3, 4
 
-        Collections.sort(magazine);
-
+        magazine.sort(maganizeComparator);
         magazine.forEach(System.out::println);
 
-        System.out.println("-----------------");
+        Magazine magazineToSearch = new Magazine(1L, "Electronics", 24.99);
 
-        magazine.sort(new MaganizeComparator());
-
-        magazine.forEach(System.out::println);
-
-
+       System.out.println(Collections.binarySearch(magazine, magazineToSearch, maganizeComparator));
     }
 }
