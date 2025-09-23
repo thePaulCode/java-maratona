@@ -1,4 +1,4 @@
-package AOlaDevDojo;
+package introducao.AOlaDevDojo;
 
 public class EstruturasCondicionais01 {
     public static void main(String[] args) {

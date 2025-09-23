@@ -1,4 +1,4 @@
-package AOlaDevDojo;
+package introducao.AOlaDevDojo;
 
 public class OlaDevDojo {
     public static void main(String[] args){

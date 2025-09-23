@@ -1,4 +1,4 @@
-package AOlaDevDojo;
+package introducao.AOlaDevDojo;
 
 public class Aula06EstruturasDeRepeticao02 {
     public static void main(String[] args) {
