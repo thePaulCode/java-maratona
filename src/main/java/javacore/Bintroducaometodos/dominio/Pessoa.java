@@ -1,11 +1,13 @@
 package javacore.Bintroducaometodos.dominio;
 
-public class Funcionario {
+public class Pessoa {
+
     private String nome;
     private int idade;
-    private double[] salarios = new double[3];
 
-    public Funcionario(){}
+    public Pessoa(){
+
+    }
 
     public String getNome() {
         return nome;
@@ -20,14 +22,15 @@ public class Funcionario {
     }
 
     public void setIdade(int idade) {
+        if(idade < 0) {
+            System.out.println("Idade inválida.");
+            return;
+        }
         this.idade = idade;
     }
 
-    public double[] getSalarios() {
-        return salarios;
-    }
-
-    public void setSalarios(double[] salarios) {
-        this.salarios = salarios;
+    public void imprime(){
+        System.out.println(this.nome);
+        System.out.println(this.idade);
     }
 }
