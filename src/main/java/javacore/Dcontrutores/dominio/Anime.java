@@ -6,17 +6,32 @@ public class Anime {
     private String tipo;
     private int episodios;
     private String genero;
+    private String estudio;
 
 
     public Anime(String nome){
+        //somente dentro de constructor
+        // na primeira linha executável
+        this();
         this.nome = nome;
     }
 
     public Anime(String nome, String tipo, int episodios, String genero) {
+
+        this();
         this.nome = nome;
         this.tipo = tipo;
         this.episodios = episodios;
         this.genero = genero;
+    }
+
+    public Anime(String nome, String tipo, int episodios, String genero, String estudio){
+        this(nome, tipo, episodios, genero);
+        this.estudio = estudio;
+    }
+
+    public Anime() {
+        System.out.println("construtor");
     }
 
     public void init(String nome, String tipo, int episodios){
@@ -35,6 +50,7 @@ public class Anime {
         System.out.println(this.tipo);
         System.out.println(this.episodios);
         System.out.println(this.genero);
+        System.out.println(this.estudio);
     }
 
     public String getGenero() {
@@ -67,5 +83,13 @@ public class Anime {
 
     public int getEpisodios(){
         return this.episodios;
+    }
+
+    public String getEstudio() {
+        return estudio;
+    }
+
+    public void setEstudio(String estudio) {
+        this.estudio = estudio;
     }
 }
