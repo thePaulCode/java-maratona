@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="8" />
+    <option name="CUSTOM_SCOPE_NAME" value="All Places" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="108b3a25-9413-4d61-89e0-6c5b81a128b4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Oexception/dominio/StackOverflow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oexception/exception/dominio/Leitor1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oexception/exception/dominio/Leitor2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oexception/exception/dominio/LoginInvalidoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oexception/exception/test/ExceptionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oexception/exception/test/ExceptionTest02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oexception/exception/test/LoginInvalidoExceptionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oexception/exception/test/TryWithResourcesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oexception/runtime/test/RuntimeExceptionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oexception/runtime/test/RuntimeExceptionTest02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oexception/runtime/test/RuntimeExceptionTest03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oexception/runtime/test/RuntimeExceptionTest04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oexception/test/StackOverflowTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Npolimorfismo/test/ProdutoTest03.java" beforeDir="false" afterPath="$PROJECT_DIR$/Npolimorfismo/test/ProdutoTest03.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="34LYdKy0cxbzn7FLRLrWllLtYzU" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;I:/Meu Drive/trilhaJava/java-maratona/java-core/src/main/java/javacore&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="javacore.Oexception.runtime.test" />
+      <recent name="javacore.Oexception.exception.test" />
+      <recent name="javacore.Npolimorfismo.servico" />
+      <recent name="javacore.Npolimorfismo.test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SobrescritaComExceptionTest">
+    <configuration name="ProdutoTest02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javacore.Npolimorfismo.test.ProdutoTest02" />
+      <module name="javacore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javacore.Npolimorfismo.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RepositorioTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javacore.Npolimorfismo.test.RepositorioTest" />
+      <module name="javacore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javacore.Npolimorfismo.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RuntimeExceptionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javacore.Oexception.runtime.test.RuntimeExceptionTest" />
+      <module name="javacore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javacore.Oexception.runtime.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RuntimeExceptionTest02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javacore.Oexception.runtime.test.RuntimeExceptionTest02" />
+      <module name="javacore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javacore.Oexception.runtime.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SobrescritaComExceptionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javacore.Oexception.exception.test.SobrescritaComExceptionTest" />
+      <module name="javacore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javacore.Oexception.exception.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SobrescritaComExceptionTest" />
+        <item itemvalue="Application.ProdutoTest02" />
+        <item itemvalue="Application.RuntimeExceptionTest02" />
+        <item itemvalue="Application.RuntimeExceptionTest" />
+        <item itemvalue="Application.RepositorioTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="108b3a25-9413-4d61-89e0-6c5b81a128b4" name="Changes" comment="" />
+      <created>1760994408025</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1760994408025</updated>
+      <workItem from="1760994408523" duration="3034000" />
+      <workItem from="1761092598696" duration="1497000" />
+      <workItem from="1761173780586" duration="1245000" />
+      <workItem from="1761415969202" duration="3197000" />
+      <workItem from="1761488940545" duration="4936000" />
+      <workItem from="1761604110677" duration="790000" />
+      <workItem from="1761690956806" duration="3035000" />
+      <workItem from="1761946673429" duration="1801000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Npolimorfismo/servico/CalculadoraImposto.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Oexception/runtime/test/RuntimeExceptionTest02.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Oexception/runtime/test/RuntimeExceptionTest02.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Oexception/runtime/test/RuntimeExceptionTest02.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Oexception/runtime/test/RuntimeExceptionTest02.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Oexception/runtime/test/RuntimeExceptionTest02.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Oexception/exception/test/ExceptionTest02.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Oexception/exception/test/ExceptionTest02.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Oexception/runtime/test/RuntimeExceptionTest03.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Oexception/runtime/test/RuntimeExceptionTest03.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Oexception/runtime/test/RuntimeExceptionTest03.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Oexception/runtime/test/RuntimeExceptionTest03.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Oexception/runtime/test/RuntimeExceptionTest03.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Oexception/runtime/test/RuntimeExceptionTest03.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Oexception/runtime/test/RuntimeExceptionTest03.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Oexception/runtime/test/RuntimeExceptionTest03.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Oexception/runtime/test/RuntimeExceptionTest03.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArithmeticException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
